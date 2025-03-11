@@ -11,6 +11,9 @@ package vcconnect.edu.za.prjclasses;
 public class PrjClasses {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        newClass nc = new newClass();
+        nc.helloClass();
+        
+        System.out.println(nc.sSecClassVar);
     }
 }
